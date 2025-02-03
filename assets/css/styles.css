@@ -292,6 +292,9 @@ img {
 }
 
 .about_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
   margin-left: -350px;
 }
@@ -300,6 +303,7 @@ img {
 .skills_container {
   row-gap: 2rem;
   text-align: center;
+  
 }
 
 .skills_subtitle {
@@ -320,6 +324,13 @@ img {
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+
+.Tools-Data{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+  
 }
 
 .skill_icon {
